@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta nome="Igor Bragança" tia="42119316">
+    <meta nome="Danilo Ferreira Rocha" tia="32246633">
+    <link rel="shortcut icon" href="./Mídia/imagens/logo.webp" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/4463b47135.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Css/quemsomos.css">
+    <title>Quem Somos</title>
+</head>
+
+<body>
+
+    <!-- Barra de navegação fixa do site -->
+    <header>
+        <a href="index.html">
+            <img src="./Mídia/imagens/logo.webp" alt="Logotipo">
+        </a>
+        <nav>
+            <a href="/quemsomos.html">Quem Somos</a>
+            <a href="/nossahistoria.html">Nossa história</a>
+            <a href="/frenteatua.html">Frentes de atuação</a>
+            <a href="/comoajudar.html">Como ajudar</a>
+        </nav>
+        <a href="/Contatos.html">
+            <button>
+                <i class="fa-solid fa-phone"></i>
+                Contatos
+            </button>
+        </a>
+    </header>
+
+    <script>
+        window.onscroll = function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("scrolled", window.scrollY > 0);
+        };
+    </script>
+
+    <!-- Primeira parte -->
+    <section class="banner-contatos">
+        <div>
+            <h1>Somos o Instituto para quem <span>precisa</span></h1>
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- Segunda-parte -->
+    <div class="quemsomos">
+        <div id="quemsomosimg">
+            <img src="./Mídia/Fotos/insta6.jpeg" alt="">
+        </div>
+        <div id="quemsomostxt">
+            <h2>Quem somos nós?</h2>
+            <p>O Instituto Pra Quem Precisa é uma organização social sem fins lucrativos, 
+                que realiza projetos visando contribuir para a redução da desigualdade social, 
+                promover o desenvolvimento humano de famílias residentes em invasões e comunidades de São Paulo, 
+                além da grande população em situação de rua. Atuamos no enfrentamento à fome e a insegurança alimentar, 
+                voltada para o desenvolvimento biopsicossocial das pessoas em situação de vulnerabilidade, 
+                além de apoio à saúde mental, dependência química, recolocação profissional, estímulo à educação e formação cidadã.</p>
+        </div>
+    </div>
+
+    <!-- terceira-parte -->
+    <div class="titulo3">
+        <h2>Nossa frente de atuação</h2>
+    </div>
+    <div class="frenteatua">
+        <div class="bloco1">
+            <i class="fa-solid fa-utensils"></i>
+            <h3>Comida para Quem Precisa</h3>
+            <p>Distribuição de cestas básicas, marmitas, 
+                lanches, sucos, chás, cafés, achocolatados, etc, 
+                para a população em situação de rua, invasões, comunidades, 
+                ONGS e igrejas;</p>
+        </div>
+        <div class="bloco2">
+            <i class="fa-solid fa-face-smile"></i>
+            <h3>GRACE</h3>
+            <p>Grupo de Acolhimento Emocional – Acolher e ajudar ao próximo 
+                de forma a levá-lo a enxergar a sua real identidade. Terapia 
+                em grupo e/ou individual para fortalecimento psíquico;</p>
+        </div>
+        <div class="bloco3">
+            <i class="fa-solid fa-gamepad"></i>
+            <h3>Pra Quem Precisa KIDS</h3>
+            <p>em conjunto com o GRACE, nossos olhos aqui são para as crianças em comunidades, 
+                onde buscamos levar de forma lúdica, brincadeiras, reforço escolar e 
+                apoio psicológico caso haja necessidade.</p>
+        </div>
+    </div>
+
+    <div id="button3">
+        <button>Saiba mais</button>
+    </div>
+    
+
+    <!-- última-parte -->
+    <footer>
+        <img src="./Mídia/imagens/INSTITUTO para quem precisa.png" alt="">
+        <section class="redes-sociais">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </section>
+        <h6>Igor Bragança - 42119316</h6>
+        <h6>Danilo Ferreira Rocha- 32246633</h6>
+    </footer>
+
+
+</body>
+
+</html>
